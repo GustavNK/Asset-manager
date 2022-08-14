@@ -28,6 +28,7 @@ class BookingType(DjangoObjectType):
         fields = "__all__"
 
 
+
 class Query(graphene.ObjectType):
     all_organisations = graphene.List(OrganisationsType)
 
