@@ -44,7 +44,7 @@ INSTALLED_APPS = [
 ]
 
 GRAPHENE = {
-    "SCHEMA": "RoomBooker.schema.schema",
+    "SCHEMA": "AssetManager.schema.schema",
 }
 
 MIDDLEWARE = [
